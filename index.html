@@ -16,12 +16,14 @@
   </head>
 
   <body class="page">
+
     <!-- Шапка сайта -->
     <header class="page-header">
       <div class="container">
+
       <nav>
         <!-- Logo-header -->
-        <a href="" class="logo logo-header">
+        <a href="./index.html" aria-label="logo" class="logo logo-header">
           <span class="accent-web">Web</span>Studio
         </a>
 
@@ -32,10 +34,17 @@
           <li><a href="" class="link">Контакты</a></li>
         </ul>
       </nav>
+
+      <address>
       <ul class="site-contacts list">
-        <li class="contact">info@devstudio.com</li>
-        <li class="contact">+38 096 111 11 11</li>
+        <li >
+          <a href="mailto:info@devstudio.com" class="contact">info@devstudio.com</a> 
+        </li>
+        <li >
+          <a href="tel:+380961111111" class="contact">+38 096 111 11 11</a> 
+        </li>
       </ul>
+      </address>
       </div>
     </header>
 
@@ -52,7 +61,8 @@
       <!-- Features-->
       <section class="section">
         <div class="container">
-        <h2 class="section-title">Особенности</h2>
+
+        <h2 class="section-title" hidden>Особенности</h2>
         <ul class="feature-list">
           <li>
             <h3 class="feature-title">Внимание к деталям</h3>
@@ -95,21 +105,21 @@
             <img
               src="./images/img1.jpg"
               alt="Мужчина пишет код с клавиатуры"
-              width="370"
+              width="370" height="294"
             />
           </li>
           <li>
             <img
               src="./images/img2.jpg"
               alt="Девушка создает интерфейс как на телефоне"
-              width="370"
+              width="370" height="294"
             />
           </li>
           <li>
             <img
               src="./images/img3.jpg"
               alt="Выбор цветовой палитры"
-              width="370"
+              width="370" height="294"
             />
           </li>
         </ul>
@@ -120,37 +130,40 @@
       <section class="section">
         <div class="container">
         <h2 class="section-title">Наша команда</h2>
+        
         <ul class="work-list">
           <li>
             <h3 class="work-title">Игорь Демьяненко</h3>
-            <p>Product Designer</p>
+            <p class="work-item">Product Designer</p>
             <img
               src="./images/игорь.jpg"
               alt="Фото Игорь Демьяненко"
-              width="270"
+              width="270" height="368"
             />
           </li>
           <li>
             <h3 class="work-title">Ольга Репина</h3>
-            <p>Frontend Developer</p>
-            <img src="./images/ольга.jpg" alt="Фото Ольга Репина" width="270" />
+            <p class="work-item">Frontend Developer</p>
+            <img src="./images/ольга.jpg" alt="Фото Ольга Репина" 
+            width="270" height="368"
+            />
           </li>
           <li>
             <h3 class="work-title">Николай Тарасов</h3>
-            <p>Marketing</p>
+            <p class="work-item">Marketing</p>
             <img
               src="./images/николай.jpg"
               alt="Фото Николай Тарасов"
-              width="270"
+              width="270" height="368"
             />
           </li>
           <li>
             <h3 class="work-title">Михаил Ермаков</h3>
-            <p>UI Designer</p>
+            <p class="work-item">UI Designer</p>
             <img
               src="./images/михаил.jpg"
               alt="Фото Михаил Ермаков"
-              width="270"
+              width="270" height="368"
             />
           </li>
         </ul>
@@ -168,14 +181,20 @@
 
       <address>
         <ul class="list-footer">
-          <li>
-            <a href="" class="full-white link">г. Киев, пр-т Леси Украинки, 26 </a>
+          <li class="footer-item">
+            <a href="https://goo.gl/maps/Jzkq81QmXv9pryJU8" target="_blank" class="full-white">
+              г. Киев, пр-т Леси Украинки, 26 
+            </a>
           </li>
-          <li>
-            <a href="" class="part-white link">info@example.com</a>
+          <li class="footer-item">
+            <a href="mailto:info@example.com" class="part-white">
+              info@example.com
+            </a>
           </li>
-          <li>
-            <a href="" class="part-white link zero">+38 099 111 11 11</a>
+          <li class="footer-item">
+            <a href="tel:+380991111111" class="part-white">
+              +38 099 111 11 11
+            </a>
           </li>
         </ul>
       </address>

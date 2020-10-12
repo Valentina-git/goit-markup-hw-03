@@ -62,7 +62,7 @@ button {
 }
 
 /* Наша команда */
-.work-list {
+.work-title.work-item {
   font-size: 16px;
   line-height: 1.19px;
 }
@@ -71,9 +71,8 @@ button {
   font-size: inherit;
   font-weight: 500;
   margin-bottom: 10px;
-  display: inline-block;
 }
-.work-list p {
+.work-list .work-item {
   font-weight: 400;
-  /* margin-top: 0; */
+  margin-top: 0;
 }

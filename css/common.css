@@ -35,7 +35,7 @@ a {
 .container {
   margin-left: auto;
   margin-right: auto;
-  width: 1230px;
+  width: 1170px;
 }
 
 /* Logo */
@@ -51,9 +51,6 @@ a {
 }
 .logo-header {
   color: var(--title-text-color);
-}
-.logo-footer {
-  color: var(--primary-white-color);
 }
 .accent-web {
   color: var(--accent-color);
@@ -83,29 +80,31 @@ a {
 .footer {
   background-color: #2f303a;
 }
+.logo-footer {
+  color: var(--primary-white-color);
+  font-style: normal;
+}
 address {
   font-style: normal;
-  margin-top: 20px;
 }
 .list-footer {
+  margin-top: 20px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-}
-.list-footer .link {
-  display: inline-block;
 }
 .list-footer :hover {
   color: var(--accent-color);
 }
 .full-white {
-  margin-bottom: 9px;
   color: var(--primary-white-color);
 }
 .part-white {
-  margin-bottom: 9px;
   color: rgba(255, 255, 255, 0.6);
 }
-.zero {
+.footer-item {
+  margin-bottom: 9px;
+}
+.footer-item:last-child {
   margin-bottom: 0;
 }
