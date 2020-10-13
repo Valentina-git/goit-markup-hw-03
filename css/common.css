@@ -60,6 +60,9 @@ a {
 	color: var(--accent-color);
 }
 .logo-header {
+	padding-top: 24px;
+	padding-bottom: 25px;
+
 	color: var(--title-text-color);
 }
 .accent-web {
@@ -75,10 +78,10 @@ a {
 }
 .site-nav {
 	display: flex;
-	margin-left: 93px;
+	padding-left: 93px;
 }
 .site-nav .item + .item {
-	margin-left: 50px;
+	padding-left: 50px;
 }
 .site-nav .link {
 	display: block;
@@ -112,6 +115,9 @@ a {
 
 /* Footer */
 .footer {
+	padding-top: 60px;
+	padding-bottom: 60px;
+
 	background-color: #2f303a;
 }
 .logo-footer {
