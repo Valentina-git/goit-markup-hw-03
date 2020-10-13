@@ -39,6 +39,7 @@ button {
 .section-title {
   margin-top: 0;
   margin-bottom: 0;
+
   color: var(--title-text-color);
   font-size: 36px;
   line-height: 1.17;
@@ -48,6 +49,7 @@ button {
 .feature-list .feature-title {
   margin-top: 0;
   margin-bottom: 10px;
+
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 14px;
