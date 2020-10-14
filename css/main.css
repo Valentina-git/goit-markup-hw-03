@@ -1,15 +1,11 @@
 /* HERO */
 .hero {
 	text-align: center;
+	padding-top: 200px;
+	padding-bottom: 200px;
 
 	background-color: #2f303a;
 	letter-spacing: 0.06em;
-}
-.hero-block {
-	padding-top: 200px;
-	padding-bottom: 200px;
-	width: 770px;
-	margin: auto;
 }
 .hero-title {
 	margin-top: 0;
@@ -42,11 +38,7 @@
 }
 
 /* Features */
-/* .section {
-	margin-bottom: 94px;
-} */
-.block {
-	flex-basis: calc((100% - 3 * 30px) / 4);
+.section {
 	padding-bottom: 94px;
 	padding-top: 94px;
 }
@@ -59,13 +51,15 @@
 	font-size: 36px;
 	line-height: 1.17;
 }
-
 .feature-list {
 	display: flex;
 	padding-top: 32px;
 }
 .feature-list .feauture-item + .feauture-item {
 	margin-left: 30px;
+}
+.feauture-item {
+	flex-basis: calc((100% - 3 * 30px) / 4);
 }
 .feature-list .feature-title {
 	color: var(--title-text-color);
@@ -82,11 +76,11 @@
 }
 
 /* Чем мы занимаемся */
-.block-plan {
-	padding-bottom: 94px;
-}
 .plan-list {
 	display: flex;
+}
+.plan-item {
+	flex-basis: calc((100% - 2 * 30px) / 3);
 }
 .plan-list .plan-item + .plan-item {
 	margin-left: 30px;
@@ -101,6 +95,8 @@
 	text-align: center;
 }
 .work-item {
+	flex-basis: calc((100% - 3 * 30px) / 4);
+
 	background-color: var(--primary-white-color);
 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 	border-radius: 0px 0px 4px 4px;
