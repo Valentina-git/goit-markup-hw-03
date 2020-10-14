@@ -53,29 +53,35 @@
 }
 .feature-list {
 	display: flex;
-	padding-top: 32px;
 }
-.feature-list .feauture-item + .feauture-item {
-	margin-left: 30px;
-}
-.feauture-item {
+.feature-item {
 	flex-basis: calc((100% - 3 * 30px) / 4);
 }
+.feature-list .item + .item {
+	margin-left: 30px;
+}
 .feature-list .feature-title {
+	margin-top: 0;
+
 	color: var(--title-text-color);
 	font-weight: 700;
 	font-size: 14px;
 	line-height: 1.14;
 	text-transform: uppercase;
 }
-.feature-list p {
+.feature-list .feature-indent {
+	margin-top: 0;
+	margin-bottom: 0;
+
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.71;
-	margin-top: 0;
 }
 
 /* Чем мы занимаемся */
+.plan {
+	padding-top: 0;
+}
 .plan-list {
 	display: flex;
 }
@@ -87,7 +93,7 @@
 }
 
 /* Наша команда */
-.section-work {
+.work {
 	background-color: #f5f4fa;
 }
 .work-list {
