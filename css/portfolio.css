@@ -15,6 +15,9 @@
 }
 
 /* Filters */
+.filters-block {
+	flex-basis: calc((100% - 4 * 8px) / 5);
+}
 .filters-list {
 	margin-bottom: 50px;
 	display: flex;
@@ -47,6 +50,9 @@
 }
 
 /* Projects */
+.projects-block {
+	flex-basis: calc((100% - 2 * 30px) / 3);
+}
 .projects-list {
 	display: flex;
 	flex-wrap: wrap;

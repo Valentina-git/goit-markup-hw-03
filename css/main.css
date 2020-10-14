@@ -5,10 +5,11 @@
 	background-color: #2f303a;
 	letter-spacing: 0.06em;
 }
-.block {
+.hero-block {
 	padding-top: 200px;
 	padding-bottom: 200px;
 	width: 770px;
+	margin: auto;
 }
 .hero-title {
 	margin-top: 0;
@@ -41,8 +42,13 @@
 }
 
 /* Features */
-.section {
+/* .section {
 	margin-bottom: 94px;
+} */
+.block {
+	flex-basis: calc((100% - 3 * 30px) / 4);
+	padding-bottom: 94px;
+	padding-top: 94px;
 }
 .section-title {
 	margin-top: 0;
@@ -62,9 +68,6 @@
 	margin-left: 30px;
 }
 .feature-list .feature-title {
-	margin-top: 0;
-	margin-bottom: 10px;
-
 	color: var(--title-text-color);
 	font-weight: 700;
 	font-size: 14px;
@@ -79,6 +82,9 @@
 }
 
 /* Чем мы занимаемся */
+.block-plan {
+	padding-bottom: 94px;
+}
 .plan-list {
 	display: flex;
 }
@@ -87,10 +93,17 @@
 }
 
 /* Наша команда */
+.section-work {
+	background-color: #f5f4fa;
+}
 .work-list {
 	display: flex;
 	text-align: center;
-	/* order: ; */
+}
+.work-item {
+	background-color: var(--primary-white-color);
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+	border-radius: 0px 0px 4px 4px;
 }
 .work-list .work-item + .work-item {
 	margin-left: 30px;
