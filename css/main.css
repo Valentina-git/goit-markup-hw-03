@@ -1,27 +1,36 @@
 /* HERO */
 .hero {
 	text-align: center;
-	margin-bottom: 94px;
-	padding-top: 200px;
-	padding-bottom: 200px;
 
 	background-color: #2f303a;
 	letter-spacing: 0.06em;
 }
+.block {
+	padding-top: 200px;
+	padding-bottom: 200px;
+	width: 770px;
+}
 .hero-title {
 	margin-top: 0;
 	margin-bottom: 30px;
+
 	color: var(--primary-white-color);
 	font-weight: 900;
 	font-size: 44px;
 	line-height: 1.36;
-
 	text-transform: uppercase;
 }
 
 /* button text-align: center; ИГНОР!!! 
 т.к. это элемент, а не текст */
 .services {
+	align-items: center;
+	border-radius: 4px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 32px;
+	padding-left: 32px;
+
 	background-color: var(--accent-color);
 	color: var(--primary-white-color);
 	font-family: inherit;
@@ -29,9 +38,6 @@
 	font-size: 16px;
 	line-height: 1.88;
 	letter-spacing: inherit;
-
-	align-items: center;
-	border-radius: 4px;
 }
 
 /* Features */
@@ -50,6 +56,7 @@
 
 .feature-list {
 	display: flex;
+	padding-top: 32px;
 }
 .feature-list .feauture-item + .feauture-item {
 	margin-left: 30px;

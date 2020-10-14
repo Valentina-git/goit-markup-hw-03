@@ -30,6 +30,9 @@ ul {
 a {
 	text-decoration: none;
 }
+address {
+	font-style: normal;
+}
 
 /* Page-header */
 .container {
@@ -120,11 +123,12 @@ a {
 
 	background-color: #2f303a;
 }
+.footer-block {
+	width: 270px;
+	margin: 0 auto;
+}
 .logo-footer {
 	color: var(--primary-white-color);
-	font-style: normal;
-}
-address {
 	font-style: normal;
 }
 .list-footer {
