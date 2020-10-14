@@ -1,3 +1,6 @@
+/* .page-header {
+	border-bottom: 1px solid #ececec;
+} */
 .line {
 	margin-top: 0;
 	margin-bottom: 0;
@@ -50,32 +53,48 @@
 }
 
 /* Projects */
-.projects-block {
-	flex-basis: calc((100% - 2 * 30px) / 3);
-}
+
 .projects-list {
 	display: flex;
 	flex-wrap: wrap;
 	margin: -15px;
 }
-.projects-item {
+.card-item {
+	/* flex-basis: calc((100% - 2 * 30px) / 3); */
 	box-sizing: border-box;
 	margin: 15px;
 
-	border: 1px solid #eeeeee;
-	width: 370px;
-	height: 404px;
+	/* width: 370px;
+	height: 404px; */
 }
-.projects-image {
-	margin-bottom: 20px;
+.card-image {
+	display: block;
 }
+.card-content {
+	padding-left: 24px;
+	padding-right: 24px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+
+	/* Установит стили правой рамки */
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #eeeeee;
+	/* Установит стили нинжней рамки */
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #eeeeee;
+	/* Установит стили левой рамки */
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #eeeeee;
+}
+
 .section-title,
 .projects-list .title {
 	color: var(--title-text-color);
 }
 .projects-list .title {
-	padding-left: 24px;
-	padding-right: 24px;
 	margin-top: 0;
 	margin-bottom: 4px;
 
@@ -87,9 +106,6 @@
 .projects-list .indent {
 	margin-top: 0;
 	margin-bottom: 0;
-	padding-left: 24px;
-	padding-right: 24px;
-	padding-bottom: 20px;
 
 	color: var(--primary-text-color);
 	font-weight: 400;
