@@ -9,7 +9,12 @@
 }
 .hero-title {
 	margin-top: 0;
-	margin-bottom: 30px;
+	margin-bottom: 0;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 572px;
+
+	/* margin: 0 auto; */
 
 	color: var(--primary-white-color);
 	font-weight: 900;
@@ -18,10 +23,8 @@
 	text-transform: uppercase;
 }
 
-/* button text-align: center; ИГНОР!!! 
-т.к. это элемент, а не текст */
-.services {
-	align-items: center;
+.btn {
+	margin-top: 30px;
 	border-radius: 4px;
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -55,7 +58,7 @@
 	display: flex;
 }
 .feature-item {
-	flex-basis: calc((100% - 3 * 30px) / 4);
+	flex-basis: calc((100% - 90px) / 4);
 }
 .feature-list .item + .item {
 	margin-left: 30px;
@@ -86,7 +89,7 @@
 	display: flex;
 }
 .plan-item {
-	flex-basis: calc((100% - 2 * 30px) / 3);
+	flex-basis: calc((100% - 60px) / 3);
 }
 .plan-list .plan-item + .plan-item {
 	margin-left: 30px;
@@ -101,7 +104,7 @@
 	text-align: center;
 }
 .work-item {
-	flex-basis: calc((100% - 3 * 30px) / 4);
+	flex-basis: calc((100% - 90px) / 4);
 
 	background-color: var(--primary-white-color);
 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -109,6 +112,9 @@
 }
 .work-list .work-item + .work-item {
 	margin-left: 30px;
+}
+.work-image {
+	margin-bottom: 30px;
 }
 .work-title.work-indent {
 	font-size: 16px;
@@ -123,5 +129,7 @@
 }
 .work-list .work-indent {
 	margin-top: 0;
+	margin-bottom: 30px;
+
 	font-weight: 400;
 }
