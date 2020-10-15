@@ -1,11 +1,20 @@
 /* HERO */
-.hero {
-	text-align: center;
+.overlay {
+	max-width: 1600px;
+	height: 600px;
+	margin-left: auto;
+	margin-right: auto;
 	padding-top: 200px;
 	padding-bottom: 200px;
 
-	background-color: #2f303a;
+	background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/герой.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.hero {
+	text-align: center;
 	letter-spacing: 0.06em;
+	background-color: #2f303a;
 }
 .hero-title {
 	margin-top: 0;
@@ -57,14 +66,38 @@
 .feature-list {
 	display: flex;
 }
+.feature-item::before {
+	display: block;
+	content: "";
+	height: 120px;
+	margin-bottom: 30px;
+
+	background-color: #f5f4fa;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.icon-antena::before {
+	background-image: url(../images/hw4/antenna\ 1.jpg);
+	
+.icon-clock::before {
+	background-image: url(../images/hw4/clock\ 1.jpg);
+}
+.icon-diagr::before {
+	background-image: url(../images/hw4/diagram\ 1.jpg);
+}
+.icon-astro::before {
+	background-image: url(../images/hw4/astronaut\ 1.jpg);
+}
 .feature-item {
 	flex-basis: calc((100% - 90px) / 4);
 }
-.feature-list .item + .item {
+.feature-list .feature-item + .feature-item {
 	margin-left: 30px;
 }
 .feature-list .feature-title {
 	margin-top: 0;
+	margin-bottom: 10px;
 
 	color: var(--title-text-color);
 	font-weight: 700;

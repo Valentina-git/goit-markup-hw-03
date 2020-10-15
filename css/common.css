@@ -57,9 +57,9 @@ ul,
 li {
 	list-style: none;
 }
-img {
+/* img {
 	vertical-align: top;
-}
+} */
 
 /* Цвет основного текста #212121 */
 /* Вторичный цвет текста #757575 */
@@ -158,11 +158,30 @@ body {
 	margin-left: 50px;
 }
 .site-contacts .contact {
-	display: block;
+	display: flex;
 	padding-top: 32px;
 	padding-bottom: 32px;
 
 	color: var(--primary-text-color);
+}
+
+.mail::before {
+	content: "";
+	width: 16px;
+	height: 12px;
+	margin-right: 10px;
+
+	background-image: url(../images/hw4/envelope.jpg);
+	background-size: contain;
+}
+.tell::before {
+	content: "";
+	width: 10px;
+	height: 16px;
+	margin-right: 10px;
+
+	background-image: url(../images/hw4/smartphone.jpg);
+	background-size: contain;
 }
 .site-nav .link:hover,
 .site-nav .link:focus,
